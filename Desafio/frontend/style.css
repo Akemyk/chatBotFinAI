@@ -1,0 +1,11 @@
+ body {
+      font-family: 'Poppins', sans-serif;
+      text-align: center;
+    }
+     button{
+        color: rgb(70, 70, 190);
+     }
+     img{
+        width: 300px;
+        height: 360px;
+     }
