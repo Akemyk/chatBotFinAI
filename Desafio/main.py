@@ -51,13 +51,13 @@ def chat():
 def status():
     return jsonify({
         "status": "online",
-        "bot": "TutorBot"
+        "bot": "FinAI"
     })
 
 
 if __name__ == "__main__":
     print("=" * 55)
-    print(" TutorBot rodando!")
+    print(" FinAI rodando!")
     print(" API em: http://localhost:5000")
     print(" Status: http://localhost:5000/status")
     print("=" * 55)
