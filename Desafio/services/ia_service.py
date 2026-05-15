@@ -27,7 +27,7 @@ class IAService:
             mensagem = str(e)
             if "401" in mensagem or "invalod_api_key" in mensagem.lower():
                 raise Exception("Erro de autentificação: verifique sua GROQ_API_KEY")
-            elif "429" in mensagem or "rate_limit" in mensagem.lowe():
+            elif "429" in mensagem or "rate_limit" in mensagem.lower():
                 raise Exception("Limite de requisições atingido. Aguarde um momento")
             else:
                 raise Exception(f"Erro na API da Groq: {mensagem}")
