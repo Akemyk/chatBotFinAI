@@ -36,7 +36,7 @@ if __name__ == "__main__":
     servico = IAService()
 
     historico_teste = [
-        {"role": "user", "content": "Ola! O que é uma variável em Python?"}
+        {"role": "user", "content": "Olá! Como posso melhorar minha saúde financeira?"}
     ]
     system_teste = "Você é um auxiliar financeito que irá ajudar o usuário sobre suas finanças"
 
